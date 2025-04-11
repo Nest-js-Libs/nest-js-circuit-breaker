@@ -1,7 +1,7 @@
 {
   "name": "@nest-js/circuit-breaker",
   "version": "0.0.2",
-  "description": "NestJS cache strategies library",
+  "description": "NestJS circuit breaker library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [

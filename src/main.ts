@@ -4,8 +4,8 @@ import { CircuitBreakerModule } from './lib/circuit-breaker.module';
 
 export const swaggerConfig = app => {
   const options = new DocumentBuilder()
-    .setTitle('CACHE STRATEGIES')
-    .setDescription('The CACHE STRATEGIES API description')
+    .setTitle('CIRCUIT BREAKER')
+    .setDescription('The CIRCUIT BREAKER API description')
     .setVersion('1.0')
     .build();
   const document = SwaggerModule.createDocument(app, options);
