@@ -1,8 +1,5 @@
-import { CircuitState } from './CircuitState';
-
-export type CircuitBreakerState = {
-  state: CircuitState;
-  failureCount: number;
-  lastFailureTime: number;
-  nextAttempt: number;
-};
+export enum CircuitBreakerState {
+    Closed, // Requests are allowed
+    Open, // Requests are blocked
+    HalfOpen, // A trial period to determine if the service has recovered
+}

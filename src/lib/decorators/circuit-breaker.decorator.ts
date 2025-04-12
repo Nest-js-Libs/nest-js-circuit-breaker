@@ -1,13 +1,6 @@
 import { applyDecorators, SetMetadata, UseInterceptors } from '@nestjs/common';
 import { CircuitBreakerInterceptor } from '../interceptors/circuit-breaker.interceptor';
-
-export interface CircuitBreakerOptions {
-  key?: string;
-  failureThreshold?: number;
-  resetTimeout?: number;
-  halfOpenTimeout?: number;
-  fallback?: (...args: any[]) => any;
-}
+import { CircuitBreakerOptions } from '../types/CircuitBreakerOptions';
 
 export const CIRCUIT_BREAKER_OPTIONS = 'CIRCUIT_BREAKER_OPTIONS';
 
