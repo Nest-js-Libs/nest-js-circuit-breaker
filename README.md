@@ -1,6 +1,6 @@
 # Circuit Breaker
 
-# @nest-js/circuit-breaker
+### @nest-js/circuit-breaker
 
 [![npm version](https://img.shields.io/npm/v/@nest-js/circuit-breaker.svg)](https://www.npmjs.com/package/@nest-js/circuit-breaker)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
